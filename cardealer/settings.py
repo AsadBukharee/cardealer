@@ -103,13 +103,13 @@ WSGI_APPLICATION = 'cardealer.wsgi.application'
 # 		'PORT': '5432',
 #      }
 #  }
-
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    }
-}
+#
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+#     }
+# }
 
 # DATABASES = {'default': dj_database_url.config(default='postgres://postgres:######@localhost/cardealer_db')}
 
